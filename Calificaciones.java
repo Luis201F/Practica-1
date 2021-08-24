@@ -64,7 +64,7 @@ public class Calificaciones {
     }
     public void numeroMenor(){
         Scanner sc=new Scanner(System.in);
-        double menor=0;
+        double menor=100;
         System.out.println("Ingrese las 5 calificaciones:");
         for(int i=0;i<arregloCalif.length;i++){
             arregloCalif[i]=sc.nextDouble();

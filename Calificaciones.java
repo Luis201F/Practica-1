@@ -68,11 +68,11 @@ public class Calificaciones {
         System.out.println("Ingrese las 5 calificaciones:");
         for(int i=0;i<arregloCalif.length;i++){
             arregloCalif[i]=sc.nextDouble();
-            if(arregloCalif[i]>menor)
+            if(arregloCalif[i]<menor)
             {
                 menor=arregloCalif[i];//Comparacion de cada calificacion para encotrar la menor
             }
         }
-        System.out.println("La calificacion mayor es:"+menor);//Imprimimos el numero menor
+        System.out.println("La calificacion menor es:"+menor);//Imprimimos el numero menor
     }
 }
